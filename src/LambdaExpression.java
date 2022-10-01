@@ -27,7 +27,7 @@ public class LambdaExpression {
         System.out.println("Enter password you want to check");
         String password = scanner.next();
     /*
-    Defining pattern of the password
+    Defining pattern of password
     */
         String Password_Pattern = "(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%^&+=]).{8,}";
 
