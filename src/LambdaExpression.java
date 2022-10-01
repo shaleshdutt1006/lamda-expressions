@@ -42,9 +42,9 @@ public class LambdaExpression {
     UserValidator interface class and giving its parameter firstName. what parameter we give to method validate
     it comes in the argument (firstNameValid) of lambda expression And we can perform any function on it.
      */
-        boolean isValid1 = validateFirstName.validate(firstName);
+        boolean isValid = validateFirstName.validate(firstName);
 
-        if (isValid1) {
+        if (isValid) {
             System.out.println("First name pattern is valid");
         } else {
             System.out.println("First name pattern is not valid try again");
